@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // general settings
+  "load_direnv": "direct",
   "cli_default_open_behavior": "existing_window",
   "agent_servers": {
     "claude-acp": {
@@ -28,7 +29,7 @@
   "git_panel": {
     "dock": "left",
   },
-  "vim_mode": true,
+  "vim_mode": false,
   "show_edit_predictions": false,
   "git": {
     "inline_blame": {
