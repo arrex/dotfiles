@@ -48,6 +48,9 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'  # preview di
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
+eval "$(direnv hook zsh)"
 
 
 export TERM=xterm-256color
+
+export STM32CubeMX_PATH=/Applications/STM32CubeMX.app/Contents/Resources
