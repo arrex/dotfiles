@@ -1,4 +1,3 @@
 [[opener.edit]]
-run   = 'zed "$@"'
+run   = 'zed --add %s'
 block = false
-orphan = true
