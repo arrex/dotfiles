@@ -35,9 +35,6 @@ export PATH=$PATH:$GOPATH/bin
 setopt interactivecomments  # allows for pasting code with comments into interactive terminal
 setopt magicequalsubst      # enable filename expansion for argument of the form `smth=expr`
 
-# ======= global env vars =======
-export EDITOR=zed
-
 # ======= completion styling =======
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'              # case-insensitive matching
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"             # colours completion results using same colours as `ls`
